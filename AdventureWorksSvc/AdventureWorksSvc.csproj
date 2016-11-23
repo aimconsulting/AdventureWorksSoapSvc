@@ -71,7 +71,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ProductsService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,10 +79,8 @@
     <Compile Include="DataLayer\DimProductCategory.cs" />
     <Compile Include="DataLayer\DimProductSubcategory.cs" />
     <Compile Include="DataContracts\Product.cs" />
-    <Compile Include="ProductsService.svc.cs">
-      <DependentUpon>ProductsService.svc</DependentUpon>
-    </Compile>
     <Compile Include="OperationContracts\IProductsService.cs" />
+    <Compile Include="ProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
