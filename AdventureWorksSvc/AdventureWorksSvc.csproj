@@ -79,11 +79,11 @@
     <Compile Include="DataLayer\DimProduct.cs" />
     <Compile Include="DataLayer\DimProductCategory.cs" />
     <Compile Include="DataLayer\DimProductSubcategory.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="DataContracts\Product.cs" />
     <Compile Include="ProductsService.svc.cs">
       <DependentUpon>ProductsService.svc</DependentUpon>
     </Compile>
-    <Compile Include="IProductsService.cs" />
+    <Compile Include="OperationContracts\IProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
